@@ -49,9 +49,16 @@ h2 {
     font-size: 300%;
     color: var(--lava);
     padding: 2rem;
+    margin-top: 1rem;
 }
 
-h3, h4 {
+h3 {
+    font-size: 200%;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+h4 {
     font-size: 200%;
 }
 
@@ -61,6 +68,7 @@ p {
     padding-top: 2rem;
     text-align: left;
     margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 footer {
