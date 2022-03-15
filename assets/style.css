@@ -1,3 +1,4 @@
+/* color pallate from schemecolor.com */
 :root {
     --dark: #0D0D0D;
     --lava: #CC1C1D;
@@ -9,6 +10,7 @@
 html {
     font-size: 62.5%;
 }
+
 
 body {
     background-color: var(--smoke);
@@ -31,6 +33,7 @@ li {
     font-size: 200%;
 }
 
+/* take away underline from links */
 a {
     text-decoration: none;
     color: var(--light);
@@ -81,7 +84,7 @@ footer {
     margin-top: 0%;
 }
 
- 
+ /* creates flexbox container for work section */
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,50 +93,41 @@ footer {
     align-content: stretch;
 }
 
+/* standardize all flex boxes to have border, width, and margin */
 .flexbox-item {
     width: 80%;
     margin: 10px;
     border: 3px solid var(--light);
 }
 
-
+/* making 1st flexbox twice as big as the other boxes */
 .flexbox-item-1 {
-    width: 80%;
+    width: 82%;
 }
 
 .flexbox-item-2 {
     width: 40%;
-  
+
 }
 
-.flexbox-item-3 {
-    width: 40%;
-  
-}
-
-.flexbox-item-4 {
-    width: 40%;
-  
-}
-
-.flexbox-item-5 {
-    width: 40%;
-}
-
+/* when hovering over link in nav bar, turns text color from white to red  */
 a:hover {
     color: var(--lava);
 }
 
+/* when hovering over work header, turns text color from white to red */
 h3:hover {
     color: var(--lava);
 }
 
+/* sized and aligned picture */
 .headshot {
-    width: 10%;
+    width: 20%;
     height: auto;
     align-content: center;
 }
 
+/* allows for better viewing on mobile devices */
 @media screen and (max-width: 768px) {
     .flexbox-item {
         width: 100%;
