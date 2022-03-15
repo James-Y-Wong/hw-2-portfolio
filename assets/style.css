@@ -133,3 +133,9 @@ h3:hover {
     height: auto;
     align-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .flexbox-item {
+        width: 100%;
+    }
+}
